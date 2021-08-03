@@ -1,5 +1,5 @@
 //
-// Created by patrickmanacorda on 8/3/21
+// Created by Patrick Manacorda on 8/3/21
 // This is sample code showcasing neat C++ architecture
 //
 
