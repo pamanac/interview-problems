@@ -200,6 +200,7 @@ void convertToList(Tree* tree) {
 		//the leftmost node of the other branch
 
 }
+}
 
 
 int main(int argc, char* argv[]) {
