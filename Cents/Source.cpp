@@ -74,7 +74,12 @@ public:
 	solverB(int target) {
 		this->target = target;
 		this->memo = new map<int, int>();
-		this->denoms = new int[] {PENNY, NICKEL, QUARTER, DIME};
+		//this->denoms = new int[] {PENNY, NICKEL, QUARTER, DIME};
+		this->denoms = new int[4];
+		denoms[0] = PENNY;
+		denoms[1] = NICKEL;
+		denoms[2] = QUARTER;
+		denoms[3] = DIME;
 	}
 
 	int solve() {
